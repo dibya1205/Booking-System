@@ -1,0 +1,65 @@
+body{
+    background-image: url('https://t4.ftcdn.net/jpg/02/45/51/51/360_F_245515156_h2nHzDquKJxygpkOkG4UsMV5So5uh3LF.jpg');
+    background-size: cover;
+
+}
+.card{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+
+}
+.card-header{
+
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.container-fluid{
+    margin-top: 142px;
+    margin-left: 0px;
+    
+    background-color: red;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes color {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: #4285f4;
+    }
+    100 {
+      background-color: white;
+    }
+  }
+.css-3d-text {
+    font-size: 45px;
+    padding-right:12px;
+    color: #17d6eb;
+    font-family: Times New Roman;
+   font-weight: bold;
+    text-shadow: 0px 0px 0 rgb(6,197,218),
+                 1px 1px 0 rgb(-10,181,202),
+                 2px 2px 0 rgb(-27,164,185),
+                 3px 3px 0 rgb(-44,147,168),
+                 4px 4px 0 rgb(-61,130,151),
+                 5px 5px 0 rgb(-77,114,135),
+                 6px 6px 0 rgb(-94,97,118),
+                 7px 7px 0 rgb(-111,80,101),
+                 8px 8px 0 rgb(-128,63,84),
+                 9px 9px 0 rgb(-144,47,68),
+                 10px 10px 0 rgb(-161,30,51),
+                 11px 11px 0 rgb(-178,13,34),
+                 12px 12px  0 rgb(-195,-4,17),
+                 13px 13px 12px rgba(0,0,0,1),
+                 13px 13px 1px rgba(0,0,0,0.5),
+                 0px 0px 12px rgba(0,0,0,.2);
+ }
